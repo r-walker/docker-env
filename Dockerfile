@@ -1,4 +1,4 @@
-FROM ubuntu as MyApp
+FROM ubuntu as myapp
 WORKDIR /opt
 
 COPY requirements.txt /opt/requirements.txt

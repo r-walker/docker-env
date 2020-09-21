@@ -4,7 +4,7 @@ build: .build
 	echo > $@
 
 shell: build
-	docker-compose run -v $(CURDIR):/opt MyApp bash
+	docker-compose run -v $(CURDIR):/opt myapp bash
 
 clean:
 	- rm .build

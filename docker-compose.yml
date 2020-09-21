@@ -1,6 +1,6 @@
 version: '3.4'
 services:
-  MyApp:
+  myapp:
     build:
       context: .
-      target: MyApp
+      target: myapp
